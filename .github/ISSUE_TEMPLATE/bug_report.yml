@@ -1,0 +1,21 @@
+name: Bug report / 问题反馈
+description: Report a reproducible problem with sanitized details.
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: 请勿粘贴令牌、认证文件、账户标识、个人路径或完整诊断输出。安全问题请私密报告。
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      description: QuotaRail / Codex CLI 版本、Windows build、缩放、任务栏布局及显示模式。
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: 复现步骤、预期与实际行为
+      description: 使用脱敏信息；截图只保留相关窗口。
+    validations:
+      required: true

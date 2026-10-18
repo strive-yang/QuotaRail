@@ -1,0 +1,62 @@
+# Rust build output. Cargo.lock should be committed for this application.
+**/target/
+/dist/
+/artifacts/
+*.pdb
+
+# Private development material stays on disk, outside the public repository.
+/.local/
+/TASKS.md
+/CONTEXT.md
+/AGENTS.md
+/docs/design-proposal.md
+/docs/technical-debt.md
+/docs/research/
+/docs/validation/
+/evidence/
+/.agents/
+/.codex/
+
+# Local runtime data and unredacted validation captures.
+/logs/
+/cache/
+/local-data/
+**/settings.json
+**/widget.json
+**/cache-salt.bin
+**/quota-*.json
+**/settings-*.tmp
+**/widget-*.tmp
+**/quota-*.tmp
+*.log
+*.raw.json
+*.raw.jsonl
+*.dmp
+
+# Credentials and local environment files must never enter Git history.
+.env
+.env.*
+!.env.example
+**/auth.json
+**/codex_oauth_auth.json
+**/credentials.json
+**/secrets.json
+*.pem
+*.key
+*.pfx
+*.p12
+/.aws/
+/.ssh/
+
+# Editor and Windows local state.
+/.vs/
+/.idea/
+/.vscode/
+*.suo
+*.user
+*.swp
+*.swo
+*~
+Thumbs.db
+Desktop.ini
+.DS_Store

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" width="512" height="512" viewBox="0 0 64 64" shape-rendering="crispEdges" aria-label="Pixel terminal quota app icon D"><title>Pixel Terminal Quota — D</title><desc>Editable pixel-vector icon. Separate grouped vector objects for background, terminal frame, prompt, telemetry, progress cells and accent pixels.</desc>
+<g id="01-background" inkscape:label="01-background">
+<rect x="0" y="0" width="64" height="64" fill="#081726"/>
+<path d="M5 0H59V1H61V2H62V3H63V5H64V59H63V61H62V62H61V63H59V64H5V63H3V62H2V61H1V59H0V5H1V3H2V2H3V1H5Z" fill="#102b47"/>
+<path d="M6 1H58V2H60V3H61V4H62V6H63V58H62V60H61V61H60V62H58V63H6V62H4V61H3V60H2V58H1V6H2V4H3V3H4V2H6Z" fill="#071525"/>
+</g>
+<g id="02-terminal-panel-fill" inkscape:label="02-terminal-panel-fill">
+<path d="M11 12H52V13H56V15H58V18H59V52H57V55H53V57H9V56H6V54H5V49H4V21H5V18H7V15H9V13H11Z" fill="#081e32"/>
+<path d="M11 14H52V15H55V17H57V20H58V51H56V54H52V55H10V54H8V52H7V49H6V22H7V19H9V16H11Z" fill="#05121f"/>
+</g>
+<g id="03-panel-pixel-frame" inkscape:label="03-panel-pixel-frame">
+<path d="M10 13H25V14H11V15H9V17H7V20H6V32H5V19H6V17H8V15H10Z" fill="#6a9aca"/>
+<rect x="12" y="12" width="13" height="1" fill="#456b9d"/>
+<rect x="25" y="12" width="16" height="2" fill="#253f64"/>
+<rect x="41" y="12" width="14" height="1" fill="#36efff"/>
+<path d="M55 13H57V15H59V17H60V25H59V18H58V16H56V15H55Z" fill="#3deaff"/>
+<rect x="59" y="25" width="1" height="24" fill="#334e72"/>
+<path d="M60 49V53H58V55H55V57H45V56H54V55H56V53H58V49Z" fill="#486b97"/>
+<path d="M4 44H6V51H7V53H9V55H11V56H25V58H10V57H8V56H6V54H5V52H4Z" fill="#18e6f7"/>
+<rect x="25" y="56" width="15" height="2" fill="#395d8f"/>
+</g>
+<g id="04-command-prompt" inkscape:label="04-command-prompt">
+<rect x="12" y="20" width="2" height="2" fill="#f4fcff"/>
+<rect x="13" y="21" width="2" height="2" fill="#f4fcff"/>
+<rect x="14" y="22" width="2" height="2" fill="#f4fcff"/>
+<rect x="15" y="23" width="2" height="2" fill="#f4fcff"/>
+<rect x="14" y="24" width="2" height="2" fill="#f4fcff"/>
+<rect x="13" y="25" width="2" height="2" fill="#f4fcff"/>
+<rect x="12" y="26" width="2" height="2" fill="#f4fcff"/>
+<rect x="11" y="27" width="2" height="2" fill="#f4fcff"/>
+<rect x="12" y="28" width="2" height="2" fill="#f4fcff"/>
+<rect x="13" y="27" width="2" height="2" fill="#f4fcff"/>
+<rect x="14" y="26" width="2" height="2" fill="#f4fcff"/>
+<rect x="15" y="25" width="2" height="2" fill="#f4fcff"/>
+<rect x="16" y="24" width="2" height="2" fill="#f4fcff"/>
+<rect x="20" y="27" width="8" height="2" fill="#f3fbff"/>
+</g>
+<g id="05-terminal-text-lines" inkscape:label="05-terminal-text-lines">
+<rect x="35" y="21" width="18" height="2" fill="#3a5984"/>
+<rect x="35" y="25" width="13" height="2" fill="#3a5984"/>
+<rect x="35" y="29" width="9" height="2" fill="#3a5984"/>
+</g>
+<g id="06-progress-meter-border" inkscape:label="06-progress-meter-border">
+<rect x="10" y="35" width="47" height="1" fill="#4b78a9"/>
+<rect x="9" y="36" width="1" height="10" fill="#5a97c9"/>
+<rect x="10" y="46" width="47" height="1" fill="#3a6d9d"/>
+<rect x="57" y="36" width="1" height="10" fill="#537ca9"/>
+<rect x="11" y="37" width="45" height="8" fill="#0b2d50"/>
+</g>
+<g id="07-progress-segments" inkscape:label="07-progress-segments">
+<rect x="12" y="38" width="6" height="6" fill="#f1fdff"/>
+<rect x="12" y="38" width="6" height="1" fill="#ffffff"/>
+<rect x="20" y="38" width="6" height="6" fill="#a0f5fa"/>
+<rect x="20" y="38" width="6" height="1" fill="#c0ffff"/>
+<rect x="28" y="38" width="6" height="6" fill="#44ddea"/>
+<rect x="28" y="38" width="6" height="1" fill="#78f7ff"/>
+<rect x="36" y="38" width="6" height="6" fill="#16bdf0"/>
+<rect x="36" y="38" width="6" height="1" fill="#45dcff"/>
+<rect x="44" y="38" width="6" height="6" fill="#125493"/>
+<rect x="44" y="38" width="6" height="1" fill="#1a66a9"/>
+<rect x="52" y="38" width="6" height="6" fill="#0b2645"/>
+<rect x="52" y="38" width="6" height="1" fill="#143253"/>
+</g>
+<g id="08-accent-pixels" inkscape:label="08-accent-pixels">
+<rect x="45" y="53" width="2" height="2" fill="#0b76ed"/>
+<rect x="49" y="53" width="2" height="2" fill="#31c8ff"/>
+<rect x="53" y="53" width="2" height="2" fill="#1669d0"/>
+</g>
+</svg>

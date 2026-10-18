@@ -1,0 +1,45 @@
+# Keep reviewable text consistent across Windows and GitHub.
+* text=auto
+*.md text eol=lf
+*.txt text eol=lf
+LICENSE text eol=lf
+*.rs text eol=lf
+*.toml text eol=lf
+Cargo.lock text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=lf
+*.cmd text eol=crlf
+*.bat text eol=crlf
+.gitignore text eol=lf
+.gitattributes text eol=lf
+.editorconfig text eol=lf
+*.manifest text eol=lf
+*.cjs text eol=lf
+*.svg text eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.ico binary
+*.gif binary
+*.webp binary
+*.pdf binary
+
+# Defense in depth for git archive / GitHub source archives.
+# Ignoring files alone does not remove them from old commits.
+/.local export-ignore
+/TASKS.md export-ignore
+/CONTEXT.md export-ignore
+/AGENTS.md export-ignore
+/.agents export-ignore
+/.codex export-ignore
+/docs/design-proposal.md export-ignore
+/docs/technical-debt.md export-ignore
+/docs/research export-ignore
+/docs/validation export-ignore
+/evidence export-ignore
+/artifacts export-ignore
+/target export-ignore
